@@ -17,13 +17,13 @@ const Carousell = () => {
           infiniteLoop={true}
         >
           <div>
-            <img src={img1} />
+            <img src={img1}  alt="imgae not found" className="h-[80vh]"/>
           </div>
           <div>
-            <img src={img2} />
+            <img src={img2} alt="imgae not found" className="h-[80vh]" />
           </div>
           <div>
-            <img src={img3} />
+            <img src={img3} alt="imgae not found" className="h-[80vh]" />
           </div>
         </Carousel>
       </div>
