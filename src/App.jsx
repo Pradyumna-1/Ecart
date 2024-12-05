@@ -5,34 +5,30 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Menu from "./components/pages/Menu";
 import Contact from "./components/pages/Contact";
-import Man from "./Component/Pages/Man";
-import Women from "./Component/Pages/Women";
-import Electronics from "./Component/Pages/Electronics";
-import Jewellery from "./Component/Pages/Jewellery";
+import Man from "./Component/Collection/Man";
+import Women from "./Component/Collection/Women";
+import Electronics from "./Component/Collection/Electronics";
+import Jewellery from "./Component/Collection/Jewellery";
 import Carousell from "./Component/Carousell";
-import Cards from "./Component/Cards/Cards";
+import Cards from "./Component/Pages/Cards";
+import Footer from "./Component/Pages/Footer";
+import Chief from "./Component/Pages/Chief";
+import Address from "./CRUD/Address";
 
 function App() {
   return (
-    //   <BrowserRouter>
-    // <Navbar />
-    //     <Routes>
-    //       <Route path="/" element={<Home />} />
-    //       <Route path="/about" element={<About />} />
-    //       <Route path="/menu" element={<Menu />} />
-    //       <Route path="/contact" element={<Contact />} />
-    //     </Routes>
-    //   </BrowserRouter>
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="/" element={<Chief />} />
+        <Route path="/address" element={<Address />} />
         <Route path="/man" element={<Man />} />
         <Route path="/women" element={<Women />} />
         <Route path="/electronics" element={<Electronics />} />
         <Route path="/jewellery" element={<Jewellery />} />
       </Routes>
-      <Carousell />
-      <Cards />
+
+      <Footer />
     </BrowserRouter>
   );
 }
