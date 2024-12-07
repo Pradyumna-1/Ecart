@@ -17,7 +17,11 @@ function classNames(...classes) {
 export default function Navbar() {
   const location = useLocation();
   console.log(location);
-  if (location.pathname == "/address") {
+  if (
+    location.pathname == "/address" ||
+    location.pathname == "/updateaddress" ||
+    location.pathname == "/addnewaddress"
+  ) {
     return null;
   } else {
     return (

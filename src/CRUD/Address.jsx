@@ -6,6 +6,7 @@ import { MdDelete } from "react-icons/md";
 import { MdEdit } from "react-icons/md";
 const Address = () => {
   let [state, setState] = useState([]);
+
   let fetchApi = () => {
     let x = axiosinstance2.get("/address");
     console.log(x);
@@ -17,16 +18,19 @@ const Address = () => {
   useEffect(() => {
     fetchApi();
   }, []);
-
+  // Delete
   const deleteData = (id) => {
     let x = axiosinstance2.delete(`/address/${id}`).then(() => {
       fetchApi();
     });
     console.log(x);
   };
+
+  //  update
+
   return (
     <div>
-      <div className="bg-blue-600  p-5 text-white  text-cente flex">
+      <div className="bg-blue-600  p-5 text-white  text-cente flex ">
         {/* <img
           className="h-8 w-auto"
           src="https://logosandtypes.com/wp-content/uploads/2020/11/shopify.svg"
@@ -36,6 +40,9 @@ const Address = () => {
           <Link to={"/"}>MyCart.com</Link>
         </div>
         <div className="text-2xl">ADDRESS</div>
+        <div className="text-2xl absolute right-5">
+          <Link to={"/addnewaddress"}>AddNewAddress</Link>
+        </div>
       </div>
       <div>
         {state.map(({ id, ename, mobile, address, pincode, email }) => {
@@ -61,9 +68,11 @@ const Address = () => {
                     <MdDelete />
                   </span>
                 </button>
-                <button className="flex justify-around align-center rounded-md w-[45%] text-white p-2 bg-blue-500">
-                  Edit <MdEdit />
-                </button>
+                <Link to={"/updateaddress"} state={{ id: id }}>
+                  <button className="flex justify-around align-center rounded-md w-[100%] text-white p-2 bg-blue-500">
+                    Edit <MdEdit />
+                  </button>
+                </Link>
               </div>
             </div>
           );
@@ -74,3 +83,5 @@ const Address = () => {
 };
 
 export default Address;
+
+
