@@ -9,7 +9,7 @@ import img5 from "../assets/img5.jpg";
 const Carousell = () => {
   return (
     <>
-      <div data-aos="fade-up-right" className="carousel-container w-full ">
+      <div data-aos="fade-up-right" className="carousel-container w-full">
         <Carousel
           autoPlay={true}
           showArrows={false}
@@ -22,14 +22,14 @@ const Carousell = () => {
             <img
               src={img1}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] md:h-[120vh] sm:h-[70vh] xs:h-[60vh]"
+              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
             />
           </div>
           <div>
             <img
               src={img4}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] md:h-[120vh] sm:h-[70vh] xs:h-[60vh]"
+              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
             />
           </div>
 
@@ -37,21 +37,21 @@ const Carousell = () => {
             <img
               src={img2}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] md:h-[120vh] sm:h-[70vh] xs:h-[60vh]"
+              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
             />
           </div>
           <div>
             <img
               src={img3}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] md:h-[120vh] sm:h-[70vh] xs:h-[60vh]"
+              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
             />
           </div>
           <div>
             <img
               src={img5}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] md:h-[120vh] sm:h-[70vh] xs:h-[60vh]"
+              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
             />
           </div>
         </Carousel>
