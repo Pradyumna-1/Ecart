@@ -22,14 +22,14 @@ const Carousell = () => {
             <img
               src={img1}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
+              className="carousel-image object-cover w-full h-[60vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh]"
             />
           </div>
           <div>
             <img
               src={img4}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
+              className="carousel-image object-cover w-full h-[60vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh]"
             />
           </div>
 
@@ -37,21 +37,21 @@ const Carousell = () => {
             <img
               src={img2}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
+              className="carousel-image object-cover w-full h-[60vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh]"
             />
           </div>
           <div>
             <img
               src={img3}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
+              className="carousel-image object-cover w-full h-[60vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh]"
             />
           </div>
           <div>
             <img
               src={img5}
               alt="imgae not found"
-              className="carousel-image object-cover w-full h-[90vh] lg:h-[80vh] md:h-[75vh] sm:h-[30vh] xs:h-[25vh]"
+              className="carousel-image object-cover w-full h-[60vh] md:h-[75vh] lg:h-[80vh] xl:h-[85vh]"
             />
           </div>
         </Carousel>
