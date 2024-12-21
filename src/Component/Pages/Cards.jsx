@@ -9,6 +9,7 @@ const Cards = () => {
     let x = axiosinstance.get("/products");
     console.log(x);
     x.then((res) => {
+
       console.log(res.data);
       setState(res.data);
     });
@@ -22,7 +23,7 @@ const Cards = () => {
       {state.map(({ title, price, image, id, description }) => {
         return (
           <div
-            className="flex flex-col items-center w-[350px] h-[350px] box-border relative  shadow-xl border border-gray-200 rounded-lg overflow-hidden  "
+            className="flex flex-col items-center w-[350px] h-[350px] box-border relative  shadow-xl border border-gray-200 bg-white rounded-lg overflow-hidden  "
             key={id}
             data-aos="flip-right"
           >

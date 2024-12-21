@@ -3,7 +3,7 @@
     {
       "id": "1",
       "ename": "Sonali Parida",
-      "email": "geetha@gmail.com",
+      "email": "sonali@gmail.com",
       "address": "Punjagutta",
       "pincode": 500082,
       "mobile": "9828744756"
@@ -17,20 +17,20 @@
       "pincode": 500082
     },
     {
-      "id": "3",
-      "ename": "Rahul",
-      "email": "rahul@gmail.com",
-      "address": "Punjagutta",
-      "pincode": 500082,
-      "mobile": 9205330733
-    },
-    {
       "id": "46e5",
       "ename": "Rohit",
       "email": "rohitpatra450@gmail.com",
       "address": "Hyderabad,Telangana",
       "pincode": "500082",
       "mobile": "9337782758"
+    },
+    {
+      "id": "9f71",
+      "ename": "Rakesh",
+      "email": "rakesh@gmail.com",
+      "address": "Bhubneswar",
+      "pincode": "766001",
+      "mobile": "912233445"
     }
   ]
 }

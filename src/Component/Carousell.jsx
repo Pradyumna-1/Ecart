@@ -16,6 +16,7 @@ const Carousell = () => {
           interval={2000}
           showThumbs={false}
           infiniteLoop={true}
+          showStatus={false}
         >
           <div>
             <img src={img1} alt="imgae not found" className="h-[90vh]" />
